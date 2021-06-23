@@ -1572,7 +1572,7 @@ def menu_yahoo():
 	choose_yahoo()
 #----choices
 def choose_yahoo():
-	go = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	go = raw_input("\033[1;97m╚═\033[1;91mroot@Mr01y ~ \033[1;97m")
 	if go =="":
 		print "\033[1;91m[!] Wrong"
 		choose_yahoo()
@@ -1878,7 +1878,7 @@ def menu_bot():
 	choose_bot()
 #////////////
 def choose_bot():
-	bots = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	bots = raw_input("\033[1;97m╚═\033[1;91mroot@Mr01y ~ \033[1;97m")
 	if bots =="":
 		print "\033[1;91m[!] Wrong input"
 		choose_bot()
@@ -1926,7 +1926,7 @@ def menu_react():
 #//////////////
 def choose_reaction():
 	global tipe
-	action = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	action = raw_input("\033[1;97m╚═\033[1;91mroot@Mr01y ~ \033[1;97m")
 	if action =="":
 		print "\033[1;91m[!] Wrong input"
 		choose_reaction()
@@ -2010,7 +2010,7 @@ def group_react():
 #//////////////
 def choosing_reaction():
 	global tipe
-	action = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	action = raw_input("\033[1;97m╚═\033[1;91mroot@Mr01y ~ \033[1;97m")
 	if action =="":
 		print "\033[1;91m[!] Wrong input"
 		choosing_reaction()
@@ -2287,7 +2287,7 @@ def func():
 	choosing_again()
 #////////////
 def choosing_again():
-	other = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	other = raw_input("\033[1;97m╚═\033[1;91mroot@Mr01y ~ \033[1;97m")
 	if other =="":
 		print "\033[1;91m[!] Wrong input"
 		choosing_again()
@@ -2506,7 +2506,7 @@ def guard():
 	print "\033[1;97m║--\033[1;91m> \033[1;92m2.\033[1;97m Not activate"
 	print "\033[1;97m║--\033[1;91m> \033[1;91m0.\033[1;97m Back"
 	print "║"
-	g = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+	g = raw_input("\033[1;97m╚═\033[1;91mroot@Mr01y ~ \033[1;97m")
 	if g == "1":
 		activated = "true"
 		jay(fb_token, activated)
