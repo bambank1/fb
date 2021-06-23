@@ -67,13 +67,13 @@ $ apt install git
 
 $ apt install python2
 
-$ git clone https://github.com/bambank1/fb
+$ git clone https://github.com/bambank1/fb1.0.git
 
 $ cd fb
 
 $ ls
 
-$ python2 fb.py
+$ python2 fb1.0.pyc
 
 
 DONATE ME                       
